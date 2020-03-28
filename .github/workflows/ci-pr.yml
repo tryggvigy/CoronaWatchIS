@@ -9,8 +9,8 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v2
       - uses: actions/setup-python@v1
-      with:
-        python-version: "3.8"
+        with:
+          python-version: "3.8"
       - name: Install pipenv
       - uses: dschep/install-pipenv-action@v1
       - name: Install Python dependencies
